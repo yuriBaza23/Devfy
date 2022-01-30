@@ -62,3 +62,30 @@ $ yarn
 <a id='env-var'></a>
 
 ### Variáveis de desenvolvimento
+Para rodar a aplicação é necessário que crie um arquivo chamado **.env.local** pegando como exemplo o arquivo **.env.example** presente na raíz desse projeto e colocar as keys correspondentes.
+<a id='github-env'></a>
+
+#### GitHub
+Entre no seu perfil do GitHub e acesse as *configurações*. Logo após acesse as *Configurações de desenvolvimento* e *OAuth Apps*.
+É importante crie um aplicativo com o *Authorization callback URL* com o valor **http://localhost:3000/api/auth/callback**. O nome e a homepage podem ser a que desejar e a descrição pode ser opcional.
+Após a criação cole o Client ID e Client Secrets no arquivo .env criado.
+
+<a id='faunadb-env'></a>
+
+#### FaunaDB (Opcional)
+No momento esse recurso não foi utilizado. Caso queira, pode criar uma conta no site https://fauna.com/, criar um banco de dados, acessar a aba de segurança e colar a sua key no arquivo .env.
+
+<a id='contribuicao'></a>
+
+### Contribuição
+Obrigado por se interessar em melhorar este aplicativo. Incentivo todos a ajudar a melhorar este projeto com novos recursos, correções de bugs ou melhorias de desempenho. Por favor, dedique um pouco do seu tempo para ler o nosso guia para tornar este processo mais rápido e fácil
+
+<a id='contribuicao-guidelines'></a>
+
+#### Guidelines
+Estou montando a [Guideline de contribuição](/.github/CONTRIBUTING.md).
+
+<a id='license'></a>
+
+### Licensa
+[Guideline de contribuição](/.github/LICENSE.md).
