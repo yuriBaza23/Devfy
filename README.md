@@ -88,4 +88,4 @@ Estou montando a [Guideline de contribuição](/.github/CONTRIBUTING.md).
 <a id='license'></a>
 
 ### Licensa
-[Guideline de contribuição](/.github/LICENSE.md).
+[MIT](/.github/LICENSE.md).
